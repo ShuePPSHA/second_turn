@@ -1,74 +1,43 @@
 body{
-    /* чтобы navbar не накладывался 
-    на следующий блок */
     padding-top: 56px;
+    font-family: Roboto-Regular;
+    font-size: 16px;
 }
 
 .position-fixed{
-    width: 100%;
- display: block;
- /*poverh vsego*/
- z-index: 100;
-  /* чтобы navbar не накладывался 
-    на следующий блок */
- margin-top: -56px;
+  width: 100%;
+  display: block;
+  z-index: 100;
+  margin-top: -56px;
  
  
 }
 
 .display-4 {
-    font-family: Roboto-Regular;
-    font-style: normal;
     font-weight: 300;
     font-size: 72px;
     line-height: 84px;
      color: #212529;    
 }
 .lead {
-    font-family: Roboto-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
     line-height: 19px;
-    
     color: #212529;
-    
-    
-}
-.btn {
-    font-family: Roboto-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-}
+    }
 section{padding: 0px 2% 0px 2%;}
 .card {
     margin-bottom: 32px;
 }
-.card-header {font-family: Roboto-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+.card-header {
     line-height: 19px;}
-.card-title {font-family: Roboto-Regular;
-    font-style: normal;
-    font-weight: normal;
+.card-title {
     font-size: 20px;
     line-height: 23px;}
-.card-text {font-family: Roboto-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+.card-text {
     line-height: 19px;}
     .podval{
         padding-left: 3em;
         text-align: left;
         color: grey;
-        font-family: Roboto-Regular;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
         line-height: 19px;
     }
     footer {
